@@ -1,0 +1,13 @@
+#include<stdio.h>
+
+int main(){
+	int a=30;
+	float b=3.14;
+	char c='A';
+	char d[6]={'K','O','R','E','A','\0'};
+	printf("%d %0.2f %c %s\n",a,b,c,d);/*%0.2f는
+										소수점 이하
+										2자리까지만
+										나타내게 함*/ 
+MessageBox(,"Hello","Caption",MB_OK);
+}
